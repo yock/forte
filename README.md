@@ -11,5 +11,10 @@ redirection to write this to a file too:
 
     forte print git@github.com:user/repo.git > authorized_keys
 
+##Dependencies
+* Ruby 2+
+* Git
+
 ##Future Plans
 * Direct deployment to a server
+* Try Github repo for path-only arguments
