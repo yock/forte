@@ -1,5 +1,8 @@
 [![Gem Version](https://badge.fury.io/rb/forte.png)](http://badge.fury.io/rb/forte)
 [![Build Status](https://travis-ci.org/yock/forte.png?branch=master)](https://travis-ci.org/yock/forte)
+#Forte
+A tool for compiling public key files for shared *nix accounts as an alternative to sharing passwords.
+
 ##Installation
 Forte is distributed as a gem. You can install it with the `gem` command:
 
