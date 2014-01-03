@@ -3,7 +3,7 @@ describe Git do
   before(:each) do
     FileUtils.rm_rf(tmp_dir)
   end
-  let(:uri) { ('spec/fixtures/repo') }
+  let(:uri) { ('https://github.com/yock/forte.git') }
   let(:tmp_dir) { File.join(Dir.pwd, '.forte') }
   describe '.clone' do
     it 'clones the repo' do
