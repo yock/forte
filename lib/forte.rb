@@ -1,0 +1,5 @@
+require 'thor'
+require 'forte/git'
+require 'forte/authorized_keys'
+require 'forte/base'
+require 'forte/keyfile'
