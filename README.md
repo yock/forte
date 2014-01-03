@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/forte.png)](http://badge.fury.io/rb/forte)
 ##Installation
 Forte is distributed as a gem. You can install it with the `gem` command:
 
