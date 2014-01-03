@@ -1,7 +1,7 @@
 require 'fileutils'
 class Git 
   class << self
-    TMP_DIR = File.join(Dir.pwd, '.tmp', 'forte')
+    TMP_DIR = File.join(Dir.pwd, '.forte')
 
     def clone(uri)
       FileUtils.mkdir_p(TMP_DIR)
