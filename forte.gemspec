@@ -7,7 +7,6 @@ Gem::Specification.new do |s|
   s.platform = Gem::Platform::RUBY
   s.authors = ['Michael Yockey', 'Ryan Cromwell']
   s.email = ['mike@heysparkbox.com', 'ryan@heysparkbox.com']
-  s.add_development_dependency 'rspec'
   s.license = 'MIT'
 
   root_path = File.dirname(__FILE__)

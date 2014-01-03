@@ -22,5 +22,5 @@ PLATFORMS
 
 DEPENDENCIES
   byebug
-  rspec
+  rspec (~> 2.14)
   thor
