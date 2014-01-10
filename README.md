@@ -31,6 +31,7 @@ redirection to write this to a file too:
 ##Future Plans
 * Direct deployment to a server
 * Try Github repo for path-only arguments
+* Replace system() call with Ruby Git library (but which one?)
 
 ##Thanks
 Thanks to [Ryan Cromwell]("https://github.com/cromwellryan") for help and encouragement in getting this finished and released.
