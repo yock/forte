@@ -23,6 +23,10 @@ This will print the authorized keys file to the console. You could use shell
 redirection to write this to a file too:
 
     forte print git@github.com:user/repo.git > authorized_keys
+    
+As of version 0.0.2, you may omit the protocol and domain for Github repositories that are available to you over HTTPS:
+
+    forte print user/repo > authorized_keys
 
 ##Dependencies
 * Ruby 2+
