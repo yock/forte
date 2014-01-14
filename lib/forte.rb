@@ -1,5 +1,7 @@
 require 'thor'
-require 'forte/git'
+require 'git'
+require 'fileutils'
 require 'forte/authorized_keys'
 require 'forte/base'
 require 'forte/keyfile'
+require 'forte/repo_location'

@@ -2,7 +2,9 @@ $:.unshift File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name = 'forte'
-  s.version = '0.0.2'
+  s.description = 'Create an authorized_keys file for a shared shell account from a repository of public key files '
+  s.homepage = 'https://github.com/yock/forte'
+  s.version = '0.0.3'
   s.summary = 'Create an authorized_keys file for a shared shell account from a repository of public key files'
   s.platform = Gem::Platform::RUBY
   s.authors = ['Michael Yockey', 'Ryan Cromwell']
