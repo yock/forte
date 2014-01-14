@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name = 'forte'
   s.description = 'Create an authorized_keys file for a shared shell account from a repository of public key files '
   s.homepage = 'https://github.com/yock/forte'
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.summary = 'Create an authorized_keys file for a shared shell account from a repository of public key files'
   s.platform = Gem::Platform::RUBY
   s.authors = ['Michael Yockey', 'Ryan Cromwell']
@@ -16,4 +16,7 @@ Gem::Specification.new do |s|
 
   s.files = [lib_files, 'bin/forte'].flatten
   s.executables = ['forte']
+
+  s.add_runtime_dependency 'thor', '~> 0.18'
+  s.add_runtime_dependency 'git', '~> 1.2'
 end
