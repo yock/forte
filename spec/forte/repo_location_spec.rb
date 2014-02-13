@@ -15,5 +15,9 @@ describe RepoLocation do
       repo = RepoLocation.new('yock/forte')
       expect(repo.uri).to eq('https://github.com/yock/forte.git')
     end
+    it 'returns ssh uris' do
+      repo = RepoLocation.new('git@github.com:yock/forte.git')
+      expect(repo.uri).to eq('git@github.com:yock/forte.git')
+    end
   end
 end
