@@ -8,6 +8,7 @@ GEM
     debugger-linecache (1.2.0)
     diff-lcs (1.2.5)
     git (1.2.6)
+    net-ssh (2.9.1)
     rspec (2.14.1)
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
@@ -24,5 +25,6 @@ PLATFORMS
 DEPENDENCIES
   byebug
   git
+  net-ssh
   rspec (~> 2.14)
   thor
