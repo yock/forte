@@ -6,4 +6,7 @@ class Base < Thor
     puts AuthorizedKeys.build(repo.dir.path)
     FileUtils.rm_rf(repo.dir.path)
   end
+
+  def ssh(repo_uri, hostname)
+  end
 end
