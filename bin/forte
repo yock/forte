@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
-require 'forte'
+require_relative '../lib/forte'
 Forte::CLI.start(ARGV)
