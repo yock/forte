@@ -1,3 +1,3 @@
 #!/usr/bin/env ruby
 require 'forte'
-Base.start(ARGV)
+Forte::CLI.start(ARGV)
