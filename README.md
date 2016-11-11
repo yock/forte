@@ -11,6 +11,9 @@ Forte is distributed as a gem. You can install it with the `gem` command:
 If you're using Bundler and want to include Forte as a dependency:
 
     gem 'forte', '~> 1.0'
+    
+The Forte gem is also (self-)signed as of v1.0.2, so if you prefer to install gems securely (-P HighSecurity) you can import my [public key](http://mikeyockey.com/rubygems-cert.pem) and installation will succeed.
+
 ##Usage
 Forte is a command line application intended for Linux or OSX. You can run it by
 calling the `forte` command with the repository uri (or local directory) that
