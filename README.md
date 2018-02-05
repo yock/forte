@@ -1,9 +1,9 @@
 [![Gem Version](https://badge.fury.io/rb/forte.png)](http://badge.fury.io/rb/forte)
 [![Build Status](https://travis-ci.org/yock/forte.png?branch=master)](https://travis-ci.org/yock/forte)
-#Forte
+# Forte
 A tool for compiling public key files for shared *nix accounts as an alternative to sharing passwords.
 
-##Installation
+## Installation
 Forte is distributed as a gem. You can install it with the `gem` command:
 
     gem install forte
@@ -14,7 +14,7 @@ If you're using Bundler and want to include Forte as a dependency:
     
 The Forte gem is also (self-)signed as of v1.0.2, so if you prefer to install gems securely (-P HighSecurity) you can import my [public key](http://mikeyockey.com/rubygems-cert.pem) and installation will succeed.
 
-##Usage
+## Usage
 Forte is a command line application intended for Linux or OSX. You can run it by
 calling the `forte` command with the repository uri (or local directory) that
 contains your public key files. For example, if your public key repository is on
@@ -31,14 +31,14 @@ As of version 0.0.2, you may omit the protocol and domain for Github repositorie
 
     forte print user/repo > authorized_keys
 
-##Dependencies
+## Dependencies
 * Ruby 2+
 * Git
 
-##Future Plans
+## Future Plans
 * Direct deployment to a server
 * Try Github repo for path-only arguments
 * Replace system() call with Ruby Git library (but which one?)
 
-##Thanks
+## Thanks
 Thanks to [Ryan Cromwell]("https://github.com/cromwellryan") for help and encouragement in getting this finished and released.
