@@ -18,6 +18,6 @@ Gem::Specification.new do |s|
   s.files = [lib_files, 'bin/forte'].flatten
   s.executables = ['forte']
 
-  s.add_runtime_dependency 'thor', '~> 0.18'
-  s.add_runtime_dependency 'git', '~> 1.2'
+  s.add_runtime_dependency 'thor', '~> 1.2'
+  s.add_runtime_dependency 'git', '~> 1.11'
 end
