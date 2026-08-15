@@ -1,3 +1,5 @@
+
+
 [![Gem Version](https://badge.fury.io/rb/forte.png)](http://badge.fury.io/rb/forte)
 [![Build Status](https://travis-ci.org/yock/forte.png?branch=master)](https://travis-ci.org/yock/forte)
 
@@ -48,4 +50,4 @@ As of version 0.0.2, you may omit the protocol and domain for Github repositorie
 
 ## Thanks
 
-Thanks to [Ryan Cromwell]("https://github.com/cromwellryan") for help and encouragement in getting this finished and released.
+Thanks to [Ryan Cromwell](https://github.com/cromwellryan) for help and encouragement in getting this finished and released.
