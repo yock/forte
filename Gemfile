@@ -1,9 +1,7 @@
 source 'https://rubygems.org'
 
-gem 'thor'
-gem 'git'
+gemspec
 
 group :development, :test do
-  gem 'rspec', '~> 2.14'
-  gem 'byebug'
+  gem 'rspec', '~> 3.13'
 end

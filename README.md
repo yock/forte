@@ -1,5 +1,5 @@
 [![Gem Version](https://badge.fury.io/rb/forte.png)](http://badge.fury.io/rb/forte)
-[![Build Status](https://travis-ci.org/yock/forte.png?branch=master)](https://travis-ci.org/yock/forte)
+[![Test](https://github.com/yock/forte/actions/workflows/test.yml/badge.svg)](https://github.com/yock/forte/actions/workflows/test.yml)
 
 # Forte
 
@@ -37,7 +37,7 @@ As of version 0.0.2, you may omit the protocol and domain for Github repositorie
 
 ## Dependencies
 
-* Ruby 2+
+* Ruby 3.2+
 * Git
 
 ## Future Plans

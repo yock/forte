@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.authors = ['Michael Yockey', 'Ryan Cromwell']
   s.email = ['mike@heysparkbox.com', 'ryan@heysparkbox.com']
   s.license = 'MIT'
+  s.required_ruby_version = '>= 3.2'
 
   root_path = File.dirname(__FILE__)
   lib_files = Dir.chdir(root_path) { Dir.glob("lib/**/{*,.*}") }
@@ -20,4 +21,6 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'thor', '~> 1.2'
   s.add_runtime_dependency 'git', '~> 1.11'
+  # git 1.x requires 'logger' without declaring it; Ruby 4.0 no longer bundles it.
+  s.add_runtime_dependency 'logger', '~> 1.5'
 end
